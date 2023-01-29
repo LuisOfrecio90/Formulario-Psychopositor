@@ -1,0 +1,62 @@
+body {
+    background-color:antiquewhite;
+ 
+}
+
+h1 {
+    text-align:center ;
+    text-decoration: underline;
+}
+
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+form {
+    margin: auto;
+    width: 600px;
+    background-color: beige;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+label {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input [type="text"], form input [type="E-mail"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: honeydew;
+    margin: 8px;
+    display: inline-block;
+}
+
+form input[type="submit"]{
+    width:100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border:1px solid black;
+    display: block;
+    color: black;
+    background-color: honeydew;
+}
+
+form input[type="submit"]:hover{
+    cursor:pointer;
+    
